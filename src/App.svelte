@@ -7,7 +7,7 @@
 </script>
 
 <main class="max-w-lg mx-auto py-6">
-<div class="grid grid-cols-2 gap-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
   <button class="bg-gray-200 ring-2 ring-offset-2 rounded-md ring-gray-400 py-4" on:click={() => {
     red = red + 1
   }}>
